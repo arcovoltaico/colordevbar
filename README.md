@@ -1,18 +1,16 @@
 # colordevbar
 Change a color, and your web will adapt graciously. Check a suggested palette when developing.
 
-What is this about
+##What is this about
 
 Imagine you can:
 - Change harmonically the colors from your site just by defining the main tone (i.e. the corporative one) on a Less variable.
 - You can map each element of your web to a color from the same Less file
 - When you are developing you can show or hide the generated color palette in order to choose which one assign to an element
-- 
 
-#SCREENSHOT HERE#
+--SCREENSHOT HERE--
 
-How to use it
-
+##How to use it
 
 Just clone this project or download it. There is a demo you can try.
 On your project you’ll need to include/import the devbar.html and add the included js & css on your html head.
