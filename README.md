@@ -25,6 +25,6 @@ And last but not least:
 
 Authorship:
 
-Idea & Design: Jordi Alhambra (@arcovoltaico)
+Idea & Bar: Jordi Alhambra (@arcovoltaico)
 
-SVG Design: Jorge Benítez (@signados)
+Icon & Animation: Jorge Benítez (@signados)
