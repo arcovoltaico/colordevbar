@@ -1,0 +1,36 @@
+@a1: #2c4bc1;
+
+@bw0: white;
+@bw1: black;
+
+@x: 20;
+@c: 10;
+
+@a2: darken(@a1,@x);
+@a3: darken(@a2,@x);
+@a4: lighten(@a3,@x);
+@a5: lighten(@a4,@x);
+
+@b1:spin(saturate(@a1, 10%), 120);
+@b2: lighten(@b1,@x);
+@b3: lighten(@b2,@x);
+@b4: lighten(@b3,@x);
+@b5: lighten(@b4,@x);
+
+@c1:spin(saturate(@b1, 10%), 120);
+@c2: lighten(@c1,@x);
+@c3: lighten(@c2,@x);
+@c4: lighten(@c3,@x);
+@c5: lighten(@c4,@x);
+
+@bw2: lighten(@bw1,@x);
+@bw3: lighten(@bw2,@x);
+@bw4: lighten(@bw3,@x);
+@bw5: lighten(@bw4,@x);
+@bw6: lighten(@bw5,@c);
+
+
+
+.eclipse (@bkg) when (lightness(@bkg) > 50%) {
+  color: @bw1;
+}
