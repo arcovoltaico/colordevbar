@@ -20,5 +20,8 @@ And last but not least:
 - On colormap.less we are mapping the color variables to some descriptive elements/parts variables used on your web views/partial
 
 
+Authorship:
+
 Idea & Design: Jordi Alhambra (@arcovoltaico)
+
 SVG Design: Jorge Benítez (@signados)
