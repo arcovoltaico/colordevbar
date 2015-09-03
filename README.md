@@ -1,6 +1,7 @@
 # colordevbar
 Change a color, and your web will adapt graciously. Check a suggested palette when developing.
 
+
 ##What is this about
 
 Imagine you can:
@@ -8,8 +9,9 @@ Imagine you can:
 - You can map each element of your web to a color from the same Less file
 - When you are developing you can show or hide the generated color palette in order to choose which one assign to an element
 
-![Active bar](/screen1.jpg)
-![Minimized bar](/screen2.jpg)
+![Active bar](/screen1.png)
+![Minimized bar](/screen2.png)
+> Yes! We were inspired by the nice Symfony devbar
 
 ##How to use it
 
