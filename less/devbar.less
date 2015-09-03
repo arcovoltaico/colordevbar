@@ -1,27 +1,25 @@
 
-.fixedcenter(){
-    
-   margin: 0 auto;
-    
-}
+
+.hidden {display:none;}
 
 #devbar { 
-    .fixedcenter();
-    vertical-align:middle;
-    line-height: 3em;
-    font-size: 0.8em; 
-
-
+    line-height: 4em;
+    font-size: 13px; 
+    position:fixed;
+    bottom:0;
+    width:100%;
+    
     ul#colors{
-        margin-bottom:0;
+        margin:0 auto;
+        width:80%;
+        text-align:center;
+        
         >li {
             display: inline-block; 
-            // margin:10px;
-            padding:12px;
-            border: 2px solid white;
+            width:4%;
+            border: 1px solid white;
+            margin: 0 -2px 0 -2px;
             color: white;
-            font-size: 1.2em;
-
 
             &.a1 {
                 background-color: @a1;
@@ -111,14 +109,8 @@
                 background-color: @bw5;
                  .eclipse (@bw5);
             }
-            &.bw6 {
-                background-color: @bw6;
-                .eclipse (@bw6);
-            }
-
         }
     }
-
 }
 
 #bdevbar {
@@ -126,42 +118,15 @@
                   bottom: 0;
                   left: 0;
                   padding: 5px 5px 0;
-                  background-color: #f7f7f7;
+                  background-color: @bw5;
                   border-radius: 0 16px 0 0;
                   z-index: 6000000;
                   width: 40px;
                   height: 40px;
+                  opacity: 0.65;
+                  
+                  &:hover {
+                      opacity:1;
+                  }
 } 
 
-
-/*#FBbg {display:none;}
-
-
-
-@media (max-width: 600px) {
-    #FBsm {display:block;}
-    #FBbg {display:none;}
-}
-
-
-@media (min-width: 600px) {
-    #FBsm {display:none;}
-    #FBbg {display:block;}
-
-}
-
-
-
-
-#u_0_0 {
-    width: 100% !important;
-}
-.fb-like.fb_edge_widget_with_comment.fb_iframe_widget, .fb-like.fb_edge_widget_with_comment.fb_iframe_widget > span, .fb-like.fb_edge_widget_with_comment.fb_iframe_widget > span > iframe {
-    width: 100% !important;
-    height: auto !important;
-}
-
-
-#FBbg * {
-   width: 100% !important;
-}*/
